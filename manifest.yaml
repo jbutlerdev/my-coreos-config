@@ -1,8 +1,8 @@
 ref: my/${basearch}/coreos/stable
 include: fedora-coreos-config/manifest.yaml
 
-packages:
-  - hdparm
+exclude-packages:
+  - podman
 
 repos:
   - fedora
