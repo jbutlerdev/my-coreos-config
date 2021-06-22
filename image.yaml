@@ -2,3 +2,7 @@
 # similarly to manifest.yaml. Unlike image-base.yaml, which is shared by all
 # streams.
 include: image-base.yaml
+extra-kargs:
+  - cgroup_enable=cpuset
+  - cgroup_memory=1
+  - cgroup_enable=memory
