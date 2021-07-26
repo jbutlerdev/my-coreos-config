@@ -3,6 +3,7 @@ include: fedora-coreos-config/manifest.yaml
 packages:
   - cri-o-1.19*
   - crictl
+  - pciutils
 
 repos:
   - fedora
